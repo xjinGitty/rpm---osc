@@ -28,3 +28,13 @@ osc getbinaries repo arch
 osc sr (submitrequest): source and target
 osc my pkg (rq)
 osc whois XJin
+
+### local build
+package path to see maintainer
+
+### branch action
+osc rdelete
+osc rdiff
+osc rebuild
+
+osc sm (search maintainer): filter just the package in project which is still maintained
