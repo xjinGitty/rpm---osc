@@ -1,0 +1,98 @@
+ 1003  2015-09-15 11:21:51 osc log
+ 1005  2015-09-15 11:22:02 osc log
+ 1007  2015-09-15 11:23:03 osc log
+ 1008  2015-09-15 11:23:47 osc diff
+ 1009  2015-09-15 11:24:23 osc diff -r 1:4
+ 1010  2015-09-15 11:24:30 man osc diff
+ 1011  2015-09-15 11:25:38 osc log
+ 1012  2015-09-15 11:26:47 osc diff
+ 1015  2015-09-15 11:28:32 osc diff
+ 1025  2015-09-15 11:29:07 osc diff
+ 1027  2015-09-15 11:29:44 osc st
+ 1030  2015-09-15 11:31:08 osc st
+ 1032  2015-09-15 11:31:58 osc de make-library-search-path.diff 
+ 1033  2015-09-15 11:32:09 osc rm make-library-search-path.diff 
+ 1036  2015-09-15 11:32:22 osc st
+ 1037  2015-09-15 11:32:26 man osc
+ 1040  2015-09-15 11:34:19 osc st
+ 1041  2015-09-15 11:34:55 osc revert
+ 1042  2015-09-15 11:34:59 osc st
+ 1043  2015-09-15 11:36:00 osc revert .
+ 1044  2015-09-15 11:36:03 osc st
+ 1045  2015-09-15 13:10:17 osc add note
+ 1046  2015-09-15 13:10:19 osc st
+ 1048  2015-09-15 13:11:20 osc log
+ 1049  2015-09-15 13:11:34 osc st
+ 1051  2015-09-15 13:11:59 osc vc
+ 1052  2015-09-15 13:12:55 osc log
+ 1053  2015-09-15 13:13:09 osc vc
+ 1055  2015-09-15 13:14:19 osc commit
+ 1056  2015-09-15 13:16:18 osc log
+ 1058  2015-09-15 13:17:50 find / -name osc.rc
+ 1059  2015-09-15 13:18:46 vi ~/.oscrc 
+ 1060  2015-09-15 13:19:29 osc vc
+ 1061  2015-09-15 13:20:01 osc ci -m "test for commit"
+ 1062  2015-09-15 13:20:18 osc log
+ 1064  2015-09-15 13:21:03 vi ~/.oscrc 
+ 1065  2015-09-15 13:28:09 osc bl x86_64
+ 1066  2015-09-15 13:28:34 osc repos
+ 1067  2015-09-15 13:29:15 osc bl openSUSE_Factory          x86_64
+ 1068  2015-09-15 13:30:49 osc repos
+ 1069  2015-09-15 13:33:45 osc r
+ 1070  2015-09-15 13:38:31 osc getbinaries openSUSE_13.2        x86_64
+ 1077  2015-09-15 13:47:52 osc my pkg
+ 1078  2015-09-15 13:48:00 osc my sr
+ 1079  2015-09-15 13:49:25 osc my pkg
+ 1080  2015-09-15 13:50:36 osc list .
+ 1083  2015-09-15 13:51:06 osc ls .
+ 1085  2015-09-15 13:53:28 history|grep osc
+ 1086  2015-09-15 13:53:36 history|grep osc> oschist
+ 1087  2015-09-15 13:53:40 less oschist 
+ 1088  2015-09-15 14:05:53 osc whois whereiz
+ 1089  2015-09-15 14:06:10 osc whois xjin
+ 1090  2015-09-15 14:06:19 osc whois xjin@suse.com
+ 1091  2015-09-15 14:07:38 osc whois zhangxiaofei
+ 1092  2015-09-15 14:08:20 osc whois XJin
+ 1110  2015-09-15 14:15:37 osc repos
+ 1111  2015-09-15 14:16:12 osc build openSUSE_Factory          x86_64
+ 1117  2015-09-15 15:02:47 osc /var//var/tmp/build-root/openSUSE_Factory-x86_64/home/abuild/rpmbuild/RPMS/x86_64/
+ 1118  2015-09-15 15:02:56 history|grep osc
+ 1119  2015-09-15 15:03:54 history|grep osc > oscALL
+ 1005  2015-09-15 10:24:30 zypper se osc
+ 1006  2015-09-15 10:26:15 zypper ar zypper ar http://download.opensuse.org/repositories/openSUSE:/Tools/openSUSE_13.1/openSUSE:Tools.repo osc
+ 1007  2015-09-15 10:26:28 zypper ar http://download.opensuse.org/repositories/openSUSE:/Tools/openSUSE_13.1/openSUSE:Tools.repo osc
+ 1010  2015-09-15 10:27:05 zypper se osc
+ 1011  2015-09-15 10:27:13 zypper in osc
+ 1014  2015-09-15 10:35:57 osc --help
+ 1019  2015-09-15 10:36:17 osc
+ 1020  2015-09-15 10:39:41 osc se make
+ 1021  2015-09-15 10:41:01 osc --help|less
+ 1022  2015-09-15 10:42:29 osc co make
+ 1024  2015-09-15 10:42:42 osc se make
+ 1025  2015-09-15 10:43:42 osc co openSUSE:Factory make
+ 1034  2015-09-15 10:47:27 man osc
+ 1039  2015-09-15 10:49:53 osc list
+ 1040  2015-09-15 10:50:05 osc ls
+ 1043  2015-09-15 10:50:30 osc ls openSUSE\:Factory/
+ 1044  2015-09-15 10:50:41 osc ls openSUSE\:Factory/|grep make
+ 1045  2015-09-15 10:53:21 osc ls -e openSUSE\:Factory/|less
+ 1046  2015-09-15 10:53:42 osc ls -e openSUSE\:Factory/|grep make|less
+ 1047  2015-09-15 10:56:14 osc meta openSUSE\:Factory/
+ 1048* 2015-09-15 10:56:36 osc meta popenSUSE:Factory
+ 1049  2015-09-15 10:57:01 osc meta project openSUSE:Factory
+ 1050  2015-09-15 10:57:36 osc project meta openSUSE:Factory
+ 1051  2015-09-15 10:58:40 osc meta prj openSUSE:Factory
+ 1053  2015-09-15 11:00:22 osc ls openSUSE:Factory
+ 1054  2015-09-15 11:01:16 osc repos openSUSE\:Factory/
+ 1057  2015-09-15 11:03:14 osc co bash
+ 1060  2015-09-15 11:09:24 osc bco openSUSE\:Factory/make/
+ 1062  2015-09-15 13:09:27 osc st
+ 1066  2015-09-15 13:54:22 history|grep osc
+ 1067  2015-09-15 13:54:36 history|grep osc> osthistIN
+ 1072  2015-09-15 13:58:24 git remote add origin git@github.com:xjinGitty/rpm---osc.git
+ 1076  2015-09-15 13:59:14 mv osthistIN oschitIN
+ 1078  2015-09-15 14:03:08 mv oschist oschistDEP
+ 1080  2015-09-15 14:03:56 mv oschitIN oschistIN
+ 1082  2015-09-15 14:04:13 git add oschist*
+ 1083  2015-09-15 14:04:24 git commit -m "osc installation and exercise"
+ 1092  2015-09-15 15:04:15 history |grep osc >> oscALL 
