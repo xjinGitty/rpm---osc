@@ -1,0 +1,31 @@
+ 1005  2015-09-15 10:24:30 zypper se osc
+ 1006  2015-09-15 10:26:15 zypper ar zypper ar http://download.opensuse.org/repositories/openSUSE:/Tools/openSUSE_13.1/openSUSE:Tools.repo osc
+ 1007  2015-09-15 10:26:28 zypper ar http://download.opensuse.org/repositories/openSUSE:/Tools/openSUSE_13.1/openSUSE:Tools.repo osc
+ 1010  2015-09-15 10:27:05 zypper se osc
+ 1011  2015-09-15 10:27:13 zypper in osc
+ 1014  2015-09-15 10:35:57 osc --help
+ 1019  2015-09-15 10:36:17 osc
+ 1020  2015-09-15 10:39:41 osc se make
+ 1021  2015-09-15 10:41:01 osc --help|less
+ 1022  2015-09-15 10:42:29 osc co make
+ 1024  2015-09-15 10:42:42 osc se make
+ 1025  2015-09-15 10:43:42 osc co openSUSE:Factory make
+ 1034  2015-09-15 10:47:27 man osc
+ 1039  2015-09-15 10:49:53 osc list
+ 1040  2015-09-15 10:50:05 osc ls
+ 1043  2015-09-15 10:50:30 osc ls openSUSE\:Factory/
+ 1044  2015-09-15 10:50:41 osc ls openSUSE\:Factory/|grep make
+ 1045  2015-09-15 10:53:21 osc ls -e openSUSE\:Factory/|less
+ 1046  2015-09-15 10:53:42 osc ls -e openSUSE\:Factory/|grep make|less
+ 1047  2015-09-15 10:56:14 osc meta openSUSE\:Factory/
+ 1048* 2015-09-15 10:56:36 osc meta popenSUSE:Factory
+ 1049  2015-09-15 10:57:01 osc meta project openSUSE:Factory
+ 1050  2015-09-15 10:57:36 osc project meta openSUSE:Factory
+ 1051  2015-09-15 10:58:40 osc meta prj openSUSE:Factory
+ 1053  2015-09-15 11:00:22 osc ls openSUSE:Factory
+ 1054  2015-09-15 11:01:16 osc repos openSUSE\:Factory/
+ 1057  2015-09-15 11:03:14 osc co bash
+ 1060  2015-09-15 11:09:24 osc bco openSUSE\:Factory/make/
+ 1062  2015-09-15 13:09:27 osc st
+ 1066  2015-09-15 13:54:22 history|grep osc
+ 1067  2015-09-15 13:54:36 history|grep osc> osthistIN
