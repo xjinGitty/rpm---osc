@@ -1,5 +1,5 @@
 # opening
-1. first time launch osc will store account info in osc.xx file
+1. first time launch osc will store account info in .oscrc file
 2. se co ls(-e: list all) repos up(fetch new) bco pull
 3. A D !(lost) ?(non-exist before)
 4. default: obs
