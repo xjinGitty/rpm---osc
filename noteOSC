@@ -1,0 +1,30 @@
+# opening
+1. first time launch osc will store account info in osc.xx file
+2. se co ls(-e: list all) repos up(fetch new) bco pull
+3. A D !(lost) ?(non-exist before)
+4. default: obs
+5. osc
+
+# modify package
+osc log
+osc diff
+osc diff -r 2:33
+osc status
+osc revert .
+
+# afternoon
+osc add
+osc rm 
+osc ar
+osc vc (to change log)
+osc commit (-m)
+### .oscrc
+osc bl (build log)
+osc repos: list repos per arch for current project 
+osc r (result): project package rpm
+osc getbinaries repo arch 
+
+### summit to remote 
+osc sr (submitrequest): source and target
+osc my pkg (rq)
+osc whois XJin
