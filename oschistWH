@@ -1,0 +1,1000 @@
+   47  ls
+   48  cd
+   49  m
+   50  tail -f /tmp/offlineimap.log 
+   51  liao
+   52  sudo cryptsetup luksOpen /run/media/nerv/chaoyang/con ccc
+   53  sudo mount /dev/mapper/ccc /mnt/
+   54  vi /mnt/pa.markdown 
+   55  sudo umount /mnt 
+   56  sudo cryptsetup luksClose ccc
+   57  cd workspace/
+   58  ls
+   59  doc
+   60  cd docker/
+   61  ls
+   62  ..
+   63  ls
+   64  md5sum susefate.tar 
+   65  ssh jupiter 
+   66  cd vir/
+   67  ls
+   68  rm fate.qcow2 
+   69  ls
+   70  qemu-img create -f qcow2 sled12sp0.qcow2 8G
+   71  sudo virsh net-start sles12-fips
+   72  sudo virsh net-list
+   73  sudo virsh net-list --all
+   74  sudo virsh list --all
+   75  sudo virsh edit sles12sp1
+   76  sudo virsh net-list --all
+   77  sudo virsh net-start vir
+   78  man virsh
+   79  sudo virsh --help
+   80  sudo virsh net-list --all
+   81  sudo virsh list --all
+   82  sudo virsh edit sle12sp0
+   83  sudo virsh destroy sle12sp0
+   84  sudo virsh --help
+   85  sudo virsh snapshot-list sle12sp0
+   86  sudo virsh snapshot-edit SLES12-Default-Updated-SCC
+   87  sudo virsh snapshot-edit sle12sp0 SLES12-Default-Updated-SCC
+   88  sudo virsh list --all
+   89  sudo virsh dumpxml sle12sp0
+   90  sudo virsh dumpxml sle12sp0 > e
+   91  vi e 
+   92  sudo virsh undefine sle12sp0
+   93  sudo virsh create e
+   94  sudo virsh list --all
+   95  sudo virsh create e
+   96  sudo virsh list --all
+   97  sudo virsh --help
+   98  sudo virsh define e
+   99  sudo virsh list --all
+  100  sudo virt-clone --original sles12 --name sles12full --file /home/nerv/vir/sles12full.qcow2
+  101  sudo virsh list --all
+  102  sudo virsh start sles12full
+  103  sudo vi /etc/hosts
+  104  ssh root@sles12full
+  105  cd
+  106  cd vir/
+  107  ls
+  108  rm e
+  109  ls
+  110  sudo qemu-img create -f qcow2 sles12full.qcow2 8G
+  111  sudo qemu-img create -f qcow2 sles12full.qcow2 12G
+  112  sshfs root@sentry:/home/tnl/tsfr ~/tr/
+  113  sudo umount ~/tr/
+  114  cd
+  115  liao
+  116  cd
+  117  ssh root@147.2.207.88
+  118  cat /proc/sys/vm/swappiness 
+  119  abook
+  120  vi .abook/addressbook
+  121  abook 
+  122  vi .abook/addressbook
+  123  abook 
+  124  vi .abook/addressbook
+  125  abook 
+  126  vi .abook/addressbook
+  127  abook 
+  128  vi .abook/addressbook
+  129  abook 
+  130  su
+  131  tail -f /tmp/offlineimap.log 
+  132  wiki
+  133  cd workspace/twt/
+  134  ls
+  135  vi bstwt.py 
+  136  ./bstwt.py 
+  137  ls
+  138  mv twt twt.db
+  139  cd
+  140  sshfs root@sentry:/home/tnl/tsfr ~/tr/
+  141  cp -r workspace/twt/ ~/tr/workshop/twt/
+  142  sudo umount tr
+  143  tail -f /tmp/offlineimap.log 
+  144  sudo virsh list
+  145  sudo virsh list --all
+  146  sudo virsh start sles12full
+  147  sudo vi /etc/host
+  148  sudo vi /etc/hosts
+  149  ssh root@sles12full 
+  150  sudo vi /etc/hosts
+  151  ssh root@sles12full
+  152  ssh-keygen -R sles12full -f /home/nerv/.ssh/known_hosts
+  153  ssh root@sles12full
+  154  cd Mail/Suse/Sent\ Items/cur/
+  155  antix.sh 
+  156  cd
+  157  sudo virsh list --all
+  158  sudo virsh start sled12
+  159  ssh root@sled12
+  160  sudo vi /etc/hosts
+  161  ssh root@sles12
+  162  ping ps64vt1067.qa.suse.de
+  163  ssh root@ps64vt1067.qa.suse.de
+  164  ping 10.162.6.67
+  165  ssh root@10.162.6.67
+  166  ping ps64vt1066.qa.suse.de
+  167  cd Mail/Suse/Sent\ Items/cur/
+  168  antix.sh 
+  169  cd
+  170  cd workspace/blug/www/
+  171  ls
+  172  cd beijinglug.
+  173  cd beijinglug.site/
+  174  git pull
+  175  ..
+  176  cd beijinglug.github.io/
+  177  git pull
+  178  ..
+  179  cd beijinglug.site/
+  180  ls
+  181  cd content/
+  182  ls
+  183  cp 20150905-event.md 20150908-event.md
+  184  vi 20150908-event.md
+  185  ..
+  186  pelican content/
+  187  ls
+  188  ./develop_server.sh start
+  189  cd content/
+  190  ls
+  191  vi 20150908-event.md
+  192  ..
+  193  ls
+  194  ./develop_server.sh stop
+  195  ls
+  196  git add content/
+  197  git commit
+  198  git push
+  199  ..
+  200  rsync beijinglug.site/output/ beijinglug.github.io/
+  201  rsync -rav beijinglug.site/output/ beijinglug.github.io/
+  202  cd beijinglug.github.io/
+  203  ls
+  204  git add *
+  205  git commit
+  206  git push
+  207  cd
+  208  m
+  209  liao
+  210  ssh root@10.162.6.60
+  211  ping 10.162.6.60
+  212  sudo cryptsetup luksOpen /run/media/nerv/chaoyang/con ccc
+  213  sudo mount /dev/mapper/ccc /mnt/
+  214  vi /mnt/pa.markdown 
+  215  sudo umount /mnt 
+  216  sudo cryptsetup luksClose ccc
+  217  sudo udisksctl power-off -b /dev/sdb
+  218  cd Downloads/
+  219  ls
+  220  sb evince WingSpan_User_Guide_v823.pdf 
+  221  tail -f /tmp/offlineimap.log 
+  222  python
+  223  python3
+  224  cd
+  225  cd workspace/twt/
+  226  ls
+  227  sqlite3 twt.db 
+  228  ls
+  229  cp twt.db twt-bak.db
+  230  vi bstwt.py 
+  231  ./bstwt.py 
+  232  vi bstwt.py 
+  233  fg
+  234  ./bstwt.py 
+  235  fg
+  236  ./bstwt.py 
+  237  vi bstwt.py 
+  238  ./bstwt.py 
+  239  vi bstwt.py 
+  240  ls
+  241  cp bstwt.py bdtwt.py
+  242  vi bdtwt.py 
+  243  ./bdtwt.py 
+  244  ls
+  245  vi bdtwt.py 
+  246  ./bdtwt.py 
+  247  vi bdtwt.py 
+  248  ./bdtwt.py 
+  249  vi bdtwt.py 
+  250  ./bdtwt.py 
+  251  vi bdtwt.py 
+  252  ./bdtwt.py 
+  253  vi bdtwt.py 
+  254  ./bdtwt.py 
+  255  vi bdtwt.py 
+  256  ./bdtwt.py 
+  257  vi bdtwt.py 
+  258  ./bdtwt.py 
+  259  vi bdtwt.py 
+  260  ./bdtwt.py 
+  261  vi bdtwt.py 
+  262  ./bdtwt.py 
+  263  vi bdtwt.py 
+  264  ./bdtwt.py 
+  265  vi bdtwt.py 
+  266  ./bdtwt.py 
+  267  vi bdtwt.py 
+  268  ./bdtwt.py 
+  269  vi bdtwt.py 
+  270  ./bdtwt.py 
+  271  vi bdtwt.py 
+  272  ./bdtwt.py 
+  273  vi bdtwt.py 
+  274  ./bdtwt.py 
+  275  vi bdtwt.py 
+  276  ./bdtwt.py 
+  277  vi bdtwt.py 
+  278  ./bdtwt.py 
+  279  vi bdtwt.py 
+  280  ./bdtwt.py 
+  281  vi bdtwt.py 
+  282  ./bdtwt.py 
+  283  vi bdtwt.py 
+  284  ./bdtwt.py 
+  285  vi bdtwt.py 
+  286  ./bdtwt.py 
+  287  vi bdtwt.py 
+  288  ./bdtwt.py 
+  289  vi bdtwt.py 
+  290  ./bdtwt.py 
+  291  vi bdtwt.py 
+  292  ./bdtwt.py 
+  293  vi bdtwt.py 
+  294  ./bdtwt.py 
+  295  vi bdtwt.py 
+  296  ./bdtwt.py 
+  297  vi bdtwt.py 
+  298  ./bdtwt.py 
+  299  vi bdtwt.py 
+  300  ./bdtwt.py 
+  301  cd
+  302  ls
+  303  sqlite3 twt.db 
+  304  ls
+  305  sqlite3 twt.db 
+  306  cd
+  307  ssh root@s390vsw154.suse.de
+  308  ssh linux154@s390vsw154.suse.de
+  309  zypper se x3270
+  310  sudo zypper in x3270
+  311  x3270
+  312  sb x3270
+  313  ssh whdu@s390vsw154.suse.de
+  314  host s390vsw154.suse.de
+  315  host s390vsw142.suse.de
+  316  ssh root@s390vsw142.suse.de
+  317  ssh root@s390vsw154.suse.de
+  318  ping s390vsw154.suse.de
+  319  cd .config/
+  320  ls
+  321  ..
+  322  ls -a
+  323  vi .x3270connect 
+  324  sb x3270
+  325  vi .x3270connect 
+  326  sb x3270
+  327  wiki
+  328  m
+  329  zypper if zypper-aptitude
+  330  cd Mail/Suse/Sent\ Items/cur/
+  331  antix.sh 
+  332  liao
+  333  x3270
+  334  sb x3270
+  335  wiki
+  336  cd Mail/Suse/Sent\ Items/cur/
+  337  antix.sh 
+  338  cd
+  339  ftp dist.suse.de
+  340  ssh root@10.161.155.142
+  341  sudo virsh list --all
+  342  sudo virsh start sles12full
+  343  ssh root@sles12full
+  344  sb x3270
+  345  vi .x3270connect 
+  346  sb x3270
+  347  m
+  348  ssh root@10.161.155.142
+  349  ssh-keygen -R 10.161.155.142 -f /home/nerv/.ssh/known_hosts
+  350  ssh root@10.161.155.142
+  351  ssh root@s390vsw142.suse.de
+  352  ping s390vsw142.suse.de
+  353  ssh root@10.161.155.142
+  354  ping s390vsw142.suse.de
+  355  vncviewer 10.161.155.142
+  356  gvncviewer 10.161.155.142
+  357  ping 10.161.155.142
+  358  gvncviewer 10.161.155.142
+  359  gvncviewer 10.161.155.142:1
+  360  ssh root@10.161.155.142
+  361  ssh-keygen -R 10.161.155.142 -f /home/nerv/.ssh/known_hosts
+  362  ssh root@10.161.155.142
+  363  ssh root@10.161.155.146
+  364  ssh jupiter
+  365  cd Mail/Suse/Sent\ Items/cur/
+  366  antix.sh 
+  367  cd
+  368  sshfs root@sentry:/home/tnl/tsfr ~/tr/
+  369  cd tr/
+  370  ls
+  371  vi fw-bookmarks.html 
+  372  cd
+  373  sudo umount tr
+  374  sudo x3270
+  375  sb x3270
+  376  ssh root@10.161.155.142
+  377  ssh-keygen -R 10.161.155.142 -f /home/nerv/.ssh/known_hosts
+  378  ssh root@10.161.155.142
+  379  wiki
+  380  sudo virsh list --all
+  381  sudo virsh start sles12full
+  382  ssh root@sles12full
+  383  sb x3270
+  384  ftp dist.suse.de
+  385  ssh root@10.161.155.142
+  386  ssh-keygen -R 10.161.155.142 -f /home/nerv/.ssh/known_hosts
+  387  ssh root@10.161.155.142
+  388  access to PKVM
+  389  m
+  390  zypper se ipmi
+  391  sb x3270
+  392  ssh root@10.161.155.142
+  393  ping 10.161.155.142
+  394  ping 10.161.157.142
+  395  sb x3270
+  396  ping 10.161.157.142
+  397  ping 10.161.155.142
+  398  ssh root@10.161.155.142
+  399  liao
+  400  liao
+  401  ssh root@10.161.155.142
+  402  ssh-keygen -R 10.161.155.142 -f /home/nerv/.ssh/known_hosts
+  403  ssh root@10.161.155.142
+  404  gvncviewer 10.161.155.154:1
+  405  ssh root@ps64vt1066.qa.suse.de
+  406  m
+  407  cd Downloads/buglogs/
+  408  ls
+  409  scp root@10.161.155.154:/home/suse/Pictures/* .
+  410  eog Screenshot\ from\ 2015-09-11\ 13\:19\:59.png 
+  411  eog Screenshot\ from\ 2015-09-11\ 13\:22\:52.png 
+  412  mv Screenshot\ from\ 2015-09-11\ 13\:22\:52.png screenshot_not_found.png
+  413  ls
+  414  eog screenshot_not_found.png 
+  415  scp root@10.161.155.154:/var/log/YaST2/y2log .
+  416  vi y2log 
+  417  scp root@10.161.155.154:/var/log/YaST2/y2log-1.gz .
+  418  gzip y2log 
+  419  ls
+  420  vi y2log
+  421  vi y2log.gz 
+  422  ls
+  423  vi y2log.gz 
+  424  cd
+  425  cd Mail/Suse/Sent\ Items/cur/
+  426  antix.sh 
+  427  cd
+  428  ssh root@ps64vt1066.qa.suse.de
+  429  ssh root@qa.suse.de
+  430  ssh root@10.161.155.154
+  431  gvncviewer 10.161.155.154:1
+  432  ssh root@10.161.155.154
+  433  gvncviewer 10.161.155.154:1
+  434  sb x3270
+  435  ping 10.161.155.154
+  436  gvncviewer 10.161.155.154:1
+  437  ssh root@10.161.155.142
+  438  gvncviewer 10.161.155.142:1
+  439  ssh root@10.161.155.142
+  440  gvncviewer 10.161.155.142:1
+  441  ssh root@10.161.155.154
+  442  gvncviewer 10.161.155.154:1
+  443  ssh root@10,161.155.154
+  444  ssh root@10.161.155.154
+  445  ssh root@10.162.6.60
+  446  ssh root@10.162.6.66
+  447  ssh root@10.162.6.60
+  448  cd
+  449  ssh root@10.162.6.60
+  450  ping ps64vt1066.qa.suse.de
+  451  ping ps64vt1067.qa.suse.de
+  452  cd Downloads/
+  453  ls
+  454  sb evince WingSpan_User_Guide_v823.pdf 
+  455  cd
+  456  ssh root@10.162.63.60
+  457  ssh root@10.162.6.60
+  458  ssh root@10.162.6.66
+  459  ssh-keygen -R 10.162.6.66 -f /home/nerv/.ssh/known_hosts
+  460  ssh root@10.162.6.66
+  461  ssh-keygen -R 10.162.6.66 -f /home/nerv/.ssh/known_hosts
+  462  ssh root@10.162.6.66
+  463  ssh root@10.162.6.60
+  464  clear
+  465  sshfs root@sentry:/home/tnl/tsfr ~/tr/
+  466  sudo umount tr
+  467  gvncviewer 10.162.6.66:1
+  468  ssh root@10.162.6.66
+  469  liao
+  470  wiki
+  471  x3270
+  472  cd /etc/systemd/system/
+  473  ls
+  474  ll default.target
+  475  cd
+  476  cd Downloads/
+  477  ls
+  478  scp clonezilla-live-2.4.2-32-amd64.iso  root@147.2.212.243:/dist/install/
+  479  cd
+  480  sudo virsh list
+  481  vi .x3270connect 
+  482  sudo virsh list
+  483  sudo virsh list --all
+  484  cd vir/
+  485  ls
+  486  df -Th
+  487  qemu-img create -f qcow2 clone.qcow2 1G
+  488  ls
+  489  cd
+  490  cd Pictures/
+  491  ls
+  492  eog Screenshot\ from\ 2015-09-14\ 10\:11\:24.png 
+  493  mv Screenshot\ from\ 2015-09-14\ 10\:11\:24.png 01.png
+  494  ls
+  495  mkdir cz
+  496  mv 01.png cz/
+  497  ls
+  498  mv Screenshot\ from\ 2015-09-14\ 10\:1* cz/
+  499  cd cz/
+  500  ls
+  501  mv Screenshot\ from\ 2015-09-14\ 10\:12\:59.png 02.png
+  502  eog 02.png 
+  503  mv Screenshot\ from\ 2015-09-14\ 10\:13\:11.png 03.png
+  504  mv Screenshot\ from\ 2015-09-14\ 10\:14\:00.png 04.png
+  505  eog 04.png 
+  506  gimp 01.png
+  507  eog 01.png 
+  508  gimp 02.png 
+  509  eog 02.png 
+  510  gimp 03.png 
+  511  eog 03.png 
+  512  gimp 03.png 
+  513  gimp 04.png 
+  514  eog 01.png 
+  515  cd
+  516  sudo virsh --help
+  517  cd Downloads/
+  518  ls
+  519  mv ../Resume.pdf .
+  520  evince Resume.pdf 
+  521  ..
+  522  ls
+  523  loffice aaa
+  524  ls
+  525  rm aaa
+  526  cd Downloads/
+  527  ls
+  528  evince Resume.pdf 
+  529  cd
+  530  liao
+  531  ssh root@10.161.155.154
+  532  ssh-keygen -R 10.161.155.154 -f /home/nerv/.ssh/known_hosts
+  533  ssh root@10.161.155.154
+  534  cd Downloads/
+  535  ls
+  536  cd
+  537  cd Documents/
+  538  ls
+  539  ..
+  540  cd Downloads/
+  541  ls
+  542  mv anna.png ~/tr/
+  543  ls
+  544  cd bb/
+  545  ls
+  546  ..
+  547  ls
+  548  evince liabp_pdf.pdf 
+  549  rm liabp_pdf.pdf 
+  550  ls
+  551  cd backups/
+  552  ls
+  553  ..
+  554  ls
+  555  cd buglogs/
+  556  ls
+  557  ..
+  558  ls
+  559  cd
+  560  ls
+  561  cd Documents/
+  562  ls
+  563  ..
+  564  cd Desktop/
+  565  ls
+  566  cd
+  567  cd workspace/
+  568  ls
+  569  ..
+  570  cd Downloads/
+  571  ls
+  572  cd video_edit_material/
+  573  ls
+  574  loffice SUSE_template\ 2013\ Libre.odp 
+  575  cd
+  576  sudo virsh list
+  577  sudo virsh list --all
+  578  sudo virsh undefine cz
+  579  sudo virsh list --all
+  580  sudo virsh start sles12
+  581  sudo virsh start sles12sp1
+  582  ssh root@sles12sp1
+  583  sudo vi /etc/hosts
+  584  ssh root@sles12sp1
+  585  ssh root@sles12
+  586  sshfs root@sentry:/home/tnl/tsfr ~/tr/
+  587  cd
+  588  sudo virsh snapshot --help
+  589  sudo virsh --help
+  590  sudo virsh snapeshot-list
+  591  sudo virsh snapshot-list
+  592  sudo virsh snapshot-list sles12
+  593  sudo virsh snapshot-list sled12
+  594  sudo virsh snapshot-list sled12 --all
+  595  sudo virsh snapshot-list sled12
+  596  sudo virsh snapshot-revert
+  597  sudo virsh snapshot-revert sled12
+  598  cd Downloads/
+  599  ls
+  600  cd
+  601  cd workspace/
+  602  ls
+  603  loffice cz.odp 
+  604  ls
+  605  cp cz.odp cz-bug.odp
+  606  loffice cz.odp 
+  607  ls
+  608  evince cz.pdf
+  609  loffice cz-bug.odp 
+  610  ls
+  611  rm cz-bug.odp 
+  612  ls
+  613  loffice cz.odp 
+  614  ls
+  615  loffice bug.odp 
+  616  cp bug.odp bug-bak.odp
+  617  loffice bug.odp 
+  618  ls
+  619  rm bug.odp 
+  620  cp bug-bak.odp bug.odp
+  621  loffice bug.odp 
+  622  ls
+  623  rm bug.odp 
+  624  cp bug-bak.odp bug.odp
+  625  loffice bug.odp 
+  626  rm bug.odp 
+  627  cp bug-bak.odp bug.odp
+  628  loffice  bug.odp 
+  629  cd blug/www/
+  630  ls
+  631  cd beijinglug.site/
+  632  git pull
+  633  ..
+  634  cd beijinglug.github.io/
+  635  git pu
+  636  git pull
+  637  ..
+  638  cd beijinglug.site/
+  639  ls
+  640  cd content/
+  641  ls
+  642  cp 20150908-event.md 20150915-event.md
+  643  vi 20150915-event.md 
+  644  ..
+  645  pelican content/
+  646  ls
+  647  ./develop_server.sh start
+  648  cd content/
+  649  ls
+  650  vi 20150915-event.md 
+  651  ..
+  652  ls
+  653  ./develop_server.sh stop
+  654  git add content/
+  655  git commit
+  656  git push
+  657  rsync -rav output/ ../beijinglug.github.io/
+  658  cd ..
+  659  cd beijinglug.
+  660  cd beijinglug.github.io/
+  661  ls
+  662  git add *
+  663  git commit
+  664  git push
+  665  cd
+  666  cd vir/
+  667  ls
+  668  rm -rf clone.qcow2 
+  669  ls
+  670  ssh jupiter
+  671  ssh root@147.2.207.235
+  672  ssh -X root@147.2.207.235
+  673  wiki
+  674  sudo virsh list
+  675  sudo virsh list --all
+  676  sudo virsh start sles12
+  677  ssh  root@sles12
+  678  sb x3270
+  679  sb gvncviewer 10.161.155.154:1
+  680  ssh root@10.161.155.154
+  681  ssh-keygen -R 10.161.155.154 -f /home/nerv/.ssh/known_hosts
+  682  ssh root@10.161.155.154
+  683  sb gvncviewer 10.161.155.154:1
+  684  ssh root@10.161.155.142
+  685  ssh-keygen -R 10.161.155.142 -f /home/nerv/.ssh/known_hosts
+  686  ssh root@10.161.155.142
+  687  ssh root@10.161.155.154
+  688  gvncviewer 10.162.6.66:1
+  689  gvncviewer 10.161.155.154:1
+  690  ssh root@10.161.155.154
+  691  gvncviewer 10.161.155.154:1
+  692  ssh root@10.161.155.154
+  693  gvncviewer 10.161.155.154:1
+  694  zypper lr -u
+  695  cd workspace/
+  696  ls
+  697  loffice cz.odp 
+  698  evince cz.pdf 
+  699  cd
+  700  cd Mail/Suse/Sent\ Items/cur/
+  701  antix.sh 
+  702  cd
+  703  liao
+  704  m
+  705  ssh jupiter 
+  706  sudo virsh list --all
+  707  sudo virsh start sles12sp1
+  708  ssh root@sles12sp1
+  709  ssh root@10.162.6.60
+  710  sb x3270
+  711  ssh root@10.161.155.142
+  712  ssh root@10.162.6.60
+  713  ssh root@10.162.6.66
+  714  sudo virsh list
+  715  sudo virsh list --all
+  716  sudo virsh start sles12sp1
+  717  ssh root@sles12sp1
+  718  sudo virsh list --all
+  719  sudo virsh start sles12
+  720  ssh root@sles12
+  721  cd
+  722  m
+  723  man zypper
+  724  cd
+  725  man zypper
+  726  ssh root@10.161.155.154
+  727  sudo virsh start sles12sp1
+  728  ssh root@sles12sp1
+  729  ssh root@10.162.6.60
+  730  ip r
+  731  osc
+  732  zypper se quilt
+  733  sudo zypper in quilt
+  734  cd workspace/
+  735  ls
+  736  cd obs/
+  737  ls
+  738  osc se apache2
+  739  osc se make
+  740  vi ~/.oscrc
+  741  osc se make
+  742  vi ~/.oscrc
+  743  osc se make
+  744  vi ~/.oscrc
+  745  osc se make
+  746  osc co make
+  747  osc co openSUSE:Factory make
+  748  ls
+  749  cd openSUSE\:Factory/
+  750  ls
+  751  cd make/
+  752  ls
+  753  vi make.changes 
+  754  vi make.
+  755  vi make.keyring 
+  756  vi make.spec 
+  757  man osc
+  758  osc ls
+  759  osc ls zypp:Head
+  760  osc ls openSUSE:Factory
+  761  osc ls -e
+  762  osc ls -e zypp
+  763  osc ls -e openSUSE:Factory
+  764  osc repos openSUSE:Factory
+  765  ls
+  766  ..
+  767  ls
+  768  osc co bash
+  769  ls
+  770  ..
+  771  ls
+  772  osc bco openSUSE:Factory make
+  773  ls
+  774  zypper lr
+  775  zypper lr -u
+  776  ls
+  777  cd openSUSE\:Factory/
+  778  ls
+  779  cd bash/
+  780  ls
+  781  ..
+  782  ls
+  783  cd  openSUSE\:Factory/
+  784  ls
+  785  cd bash/
+  786  ls
+  787  osc log
+  788  ..
+  789  cd make/
+  790  osc log
+  791  osc diff -R 1:4
+  792  osc diff -r 1:4
+  793  vi make.spec 
+  794  ..
+  795  ls
+  796  cd home\:wnereiz
+  797  ls
+  798  osc pull
+  799  ...
+  800  cd obs/openSUSE\:Factory/bash/
+  801  ls
+  802  ..
+  803  cd make/
+  804  ls
+  805  vi make.spec 
+  806  osc diff
+  807  osc st
+  808  touch ppp
+  809  osc st
+  810  ls
+  811  rm make-4.1-fix_null_returns_from_ttyname.patch
+  812  osc st
+  813  man osc
+  814  osc rm make-4.1-fix_null_returns_from_ttyname.patch
+  815  osc st
+  816  osc revert
+  817  osc st
+  818  osc revert 
+  819  osc st
+  820  osc revert
+  821  osc revert 
+  822  osc st
+  823  osc revert .
+  824  osc st
+  825  osc add ppp
+  826  osc st
+  827  osc vc
+  828  osc log
+  829  osc vc
+  830  osc ci
+  831  osc log
+  832  ls
+  833  vi make.changes 
+  834  osc vc
+  835  ls
+  836  ..
+  837  osc branch openSUSE:Facotry make
+  838  osc bco openSUSE:Facotry make
+  839  osc bco openSUSE:Factory make
+  840  ..
+  841  ls
+  842  cd home\:wnereiz
+  843  ls
+  844  osc co home:wnereiz:branches:Base:System make
+  845  ls
+  846  cd home\:wnereiz\:branches\:Base\:System/
+  847  ls
+  848  cd make/
+  849  ls
+  850  touch ppp
+  851  osc st
+  852  osc add ppp
+  853  osc st
+  854  osc vc
+  855  osc ci
+  856  osc log
+  857  ...
+  858  mv home\:wnereiz\:branches\:Base\:System ..
+  859  mv home\:wnereiz\:branches\:Base\:System ../
+  860  ls
+  861  mv home\:wnereiz\:branches\:Base\:System ../
+  862  ..
+  863  ls
+  864  cd home\:wnereiz\:branches\:Base\:System/
+  865  ls
+  866  cd make/
+  867  ls
+  868  ...
+  869  cd home\:wnereiz
+  870  rm home\:wnereiz\:branches\:Base\:System/
+  871  rm home\:wnereiz\:branches\:Base\:System/ -rf
+  872  ..
+  873  cd home\:wnereiz\:branches\:Base\:System/
+  874  ls
+  875  cd make/
+  876  ls
+  877  osc log
+  878  osc co
+  879  osc pull
+  880  osc up
+  881  osc list
+  882  ls
+  883  osc log
+  884  osc bl
+  885  osc bl x86_64
+  886  osc bl home:wnereiz:branches:Base:System make  x86_64
+  887  osc bl home:wnereiz:branches:Base:System x86_64
+  888  osc bl openSUSE_Factory x86_64
+  889  osc bs openSUSE_Factory x86_64
+  890  osc bl openSUSE_Factory x86_64
+  891  osc result openSUSE_Factory x86_64
+  892  osc r openSUSE_Factory x86_64
+  893  osc r openSUSE_Factory
+  894  osc r 
+  895  ..
+  896  cd home\:wnereiz\:branches\:Base\:System/make/
+  897  osc getbinaries openSUSE_Factory x86_64
+  898  cd binaries/
+  899  ls
+  900  ..
+  901  ls
+  902  osc st
+  903  cd binaries/
+  904  ls
+  905  vi rpmlint.log 
+  906  ..
+  907  osc my pkg
+  908  osc my sr
+  909  man osc
+  910  osc my pkg -b
+  911  man osc
+  912  osc my pkg -b
+  913  ..
+  914  osc my pkg
+  915  ..
+  916  cd home\:wnereiz
+  917  osc my pkg
+  918  osc whois wnereiz
+  919  osc whois maguratesu
+  920  osc whois margueritesu
+  921  osc whois marguerite
+  922  osc whois margueritesu
+  923  osc whois MargueriteSu
+  924  ..
+  925  ls
+  926  mv home:wnereiz:branches:Base:System branches:Base:System
+  927  mv branches\:Base\:System home\:wnereiz/
+  928  cd home\:wnereiz/
+  929  ls
+  930  cd branches\:Base\:System/
+  931  ls
+  932  osc build branches:Base:System make
+  933  osc build branches:Base:System standard x86_64
+  934  osc build branches:Base:System openSUSE_Factory x86_64
+  935  osc build openSUSE_Factory x86_64
+  936  cd make/
+  937  osc build openSUSE_Factory x86_64
+  938  cd /var/tmp/build-root/
+  939  ls
+  940  cd openSUSE_Factory-x86_64/
+  941  ls
+  942  ..
+  943  rm -rf build-root/
+  944  sudo rm -rf build-root/
+  945  tail -f /tmp/offlineimap.log 
+  946  cd
+  947  cd workspace/
+  948  ls
+  949  cd obs/
+  950  ls
+  951  cd home\:
+  952  cd home\:wnereiz/
+  953  ls
+  954  cd branches\:Base\:System/
+  955  ls
+  956  osc rdelete make
+  957  osc rdelete
+  958  man osc
+  959  ..
+  960  osc rdelete home:wnereiz:branches:Base:System
+  961  osc rdelete --recursive home:wnereiz:branches:Base:System
+  962  ls
+  963  cd branches\:Base\:System/
+  964  ls
+  965  ..
+  966  rm -rf branches\:Base\:System/
+  967  ls
+  968  cd
+  969  ssh jupiter 
+  970  cd
+  971  su
+  972  man osc
+  973  cd bin/
+  974  ls
+  975  cd
+  976  fate.sh 
+  977  cat bin/fate.sh 
+  978  fate.sh 
+  979  ps ax|grep docker
+  980  sudo docker run --rm -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY susefate fate
+  981  osc maintainer make
+  982  osc maintainer -e make
+  983  sudo docker images
+  984  sudo docker 
+  985  sudo docker ps
+  986  su
+  987  fate.sh 
+  988  vi bin/fate.sh 
+  989  fate.sh 
+  990  liao
+  991  ping 8.8.8.8
+  992  liao
+  993  m
+  994  wiki
+  995  su
+  996  ip r
+  997  wiki
+  998  liao
+  999  cd
+ 1000  file /sbin/install-info
+ 1001  install-info
+ 1002  install-info --help
+ 1003  man osc
+ 1004  git diff
+ 1005  man git 
+ 1006  guilt
+ 1007  zypper se quilt
+ 1008  quilt
+ 1009  cd workspace/obs/
+ 1010  ls
+ 1011  osc branch openSUSE:Factory make
+ 1012  ls
+ 1013  osc co home:wnereiz:branches:Base:System/make
+ 1014  ls
+ 1015  cd home:wnereiz:branches:Base:System/
+ 1016  ls
+ 1017  cd make/
+ 1018  ls
+ 1019  cp ~/workspace/obs/openSUSE\:Factory/make/0001-A-little-changes.patch .
+ 1020  ls
+ 1021  vi make.spec 
+ 1022  osc st
+ 1023  osc add 0001-A-little-changes.patch 
+ 1024  osc st
+ 1025  osc ci
+ 1026  osc br home:wnereiz:branches:Base:System make
+ 1027  osc buildresults home:wnereiz:branches:Base:System make
+ 1028  man osc
+ 1029  osc results home:wnereiz:branches:Base:System make
+ 1030  ls
+ 1031  osc getbinaries home:wnereiz:branches:Base:System make
+ 1032  osc getbinaries home:wnereiz:branches:Base:System make x86_64
+ 1033  osc getbinaries home:wnereiz:branches:Base:System x86_64 make
+ 1034  osc getbinaries x86_64 make
+ 1035  osc getbinaries openSUSE_13.2 x86_64
+ 1036  ls
+ 1037  cd binaries/
+ 1038  ls
+ 1039  vi rpmlint.log 
+ 1040  zypper in make-4.1-210.1.x86_64.rpm 
+ 1041  sudo zypper in make-4.1-210.1.x86_64.rpm 
+ 1042  make
+ 1043  make --help
+ 1044  history|less
+ 1045  history
+ 1046  history > historyOSC

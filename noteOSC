@@ -52,3 +52,4 @@ osc sm (search maintainer): filter just the package in project which is still ma
 3. git am 
 4. base 64 coding for offline-imap: mutt plugin could apply patch directly from email (not save it in 
 5. quilt tool for patch management)
+6. first modify file --> then git commit it --> git diff/ git formatpatch HEAD~ -- > echo patchFile >> make.spec -- > osc st --> osc add -->  
