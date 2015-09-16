@@ -1,0 +1,110 @@
+<buildinfo project="home:XJin:branches:Base:System" repository="openSUSE_Factory" package="make" downloadurl="http://download.opensuse.org/repositories">
+  <arch>x86_64</arch>
+  <debuginfo>1</debuginfo>
+  <subpack>make</subpack>
+  <bdep name="aaa_base" preinstall="1" runscripts="1" notmeta="1" version="13.2+git20150625.4df5033" release="583.30" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="attr" preinstall="1" notmeta="1" version="2.4.47" release="58.192" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="bash" preinstall="1" notmeta="1" version="4.3" release="288.5" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="coreutils" preinstall="1" notmeta="1" version="8.24" release="293.1" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="diffutils" preinstall="1" notmeta="1" version="3.3" release="46.2" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="filesystem" preinstall="1" notmeta="1" version="13.3" release="150.2" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="fillup" preinstall="1" notmeta="1" version="1.42" release="294.7" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="glibc" preinstall="1" notmeta="1" version="2.22" release="5.23" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="grep" preinstall="1" notmeta="1" version="2.21" release="73.2" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libbz2-1" preinstall="1" notmeta="1" version="1.0.6" release="35.21" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libgcc_s1" preinstall="1" notmeta="1" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="m4" preinstall="1" notmeta="1" version="1.4.17" release="46.4" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libncurses5" preinstall="1" notmeta="1" version="6.0" release="277.2" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="pam" preinstall="1" notmeta="1" version="1.2.1" release="2.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="permissions" preinstall="1" notmeta="1" version="2015.05.21.1505" release="139.4" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libreadline6" preinstall="1" notmeta="1" version="6.3" release="288.5" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="rpm" preinstall="1" notmeta="1" version="4.12.0.1" release="420.19" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="sed" preinstall="1" notmeta="1" version="4.2.2" release="39.1" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="tar" preinstall="1" notmeta="1" version="1.28" release="91.5" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libz1" preinstall="1" notmeta="1" version="1.2.8" release="10.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libselinux1" preinstall="1" notmeta="1" version="2.3" release="5.18" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="liblzma5" preinstall="1" notmeta="1" version="5.2.1" release="93.566" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libcap2" preinstall="1" notmeta="1" version="2.24" release="32.376" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libacl1" preinstall="1" notmeta="1" version="2.2.52" release="60.586" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libattr1" preinstall="1" notmeta="1" version="2.4.47" release="58.192" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libpopt0" preinstall="1" notmeta="1" version="1.16" release="63.382" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libelf1" preinstall="1" notmeta="1" version="0.163" release="85.5" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="liblua5_3" preinstall="1" notmeta="1" version="5.3.1" release="3.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libpcre1" preinstall="1" notmeta="1" version="8.37" release="76.154" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libncurses6" preinstall="1" notmeta="1" version="6.0" release="277.2" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="util-linux" vminstall="1" version="2.26.2" release="332.24" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libmount1" vminstall="1" version="2.26.2" release="332.24" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="perl-base" vminstall="1" version="5.22.0" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libdb-4_8" vminstall="1" notmeta="1" version="4.8.30" release="30.19" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libsepol1" vminstall="1" notmeta="1" version="2.3" release="3.19" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libblkid1" vminstall="1" version="2.26.2" release="332.24" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libuuid1" vminstall="1" version="2.26.2" release="332.24" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libsmartcols1" vminstall="1" version="2.26.2" release="332.24" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="kernel-obs-build" vminstall="1" notmeta="1" version="4.1.6" release="3.2" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="iproute2" vminstall="1" notmeta="1" version="4.1.1" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="rpm-build" version="4.12.0.1" release="420.19" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="glibc-devel" version="2.22" release="5.23" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="xz" version="5.2.1" release="93.566" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="file" version="5.24" release="137.106" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="findutils" version="4.5.14" release="82.79" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="gawk" version="4.1.3" release="53.243" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="gzip" version="1.6" release="62.591" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="make" version="4.1" release="211.1" arch="x86_64" project="home:XJin:branches:Base:System" repository="openSUSE_Factory" />
+  <bdep name="which" version="2.21" release="8.406" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="cpio" version="2.11" release="34.19" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="glibc-locale" version="2.22" release="5.23" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="systemd-rpm-macros" version="3" release="1.126" arch="noarch" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="binutils" version="2.25.0" release="4.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="net-tools" version="1.60" release="768.18" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="bzip2" version="1.0.6" release="35.21" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="gcc" version="5" release="1.23" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="patch" version="2.7.5" release="1.18" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libgmp10" version="6.0.0a" release="2.18" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libaudit1" version="2.4.4" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libcap-ng0" version="0.7.4" release="4.20" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libutempter0" version="1.1.6" release="200.817" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libfdisk1" version="2.26.2" release="332.24" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="insserv-compat" version="0.1" release="37.108" arch="noarch" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="linux-glibc-devel" version="4.1" release="85.77" arch="noarch" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libmagic1" version="5.24" release="137.106" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="update-alternatives" version="1.18.1" release="1.19" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="info" version="6.0" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="hostname" version="3.15" release="1.18" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="gcc5" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="cpp" version="5" release="1.23" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="terminfo-base" version="6.0" release="277.2" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libcrack2" version="2.9.5" release="67.27" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="file-magic" version="5.24" release="137.106" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libzio1" version="1.02" release="1.19" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libmpfr4" version="3.1.3" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libisl13" version="0.14" release="1.20" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libmpc3" version="1.0.3" release="1.18" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libgomp1" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="cpp5" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libasan2" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libatomic1" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libcilkrts5" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libitm1" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="liblsan0" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libmpx0" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libmpxwrappers0" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libtsan0" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libubsan0" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="cracklib" version="2.9.5" release="67.27" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="gettext-tools-mini" version="0.19.5.1" release="146.24" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="gettext-runtime-mini" version="0.19.5.1" release="146.24" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="libstdc++6" version="5.1.1+r225724" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="pam-modules" notmeta="1" version="12.1" release="25.5" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="perl" notmeta="1" version="5.22.0" release="1.1" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="build-mkbaselibs" notmeta="1" version="20150903" release="1.1" arch="noarch" project="openSUSE:Factory" repository="standard" />
+  <bdep name="brp-check-suse" notmeta="1" version="13.2+git20150217.031533d" release="121.1" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="post-build-checks" notmeta="1" version="13.2+git20150810.2703d2a" release="222.1" arch="noarch" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="rpmlint-Factory" notmeta="1" version="1.0" release="89.23" arch="noarch" project="openSUSE:Factory" repository="standard" />
+  <bdep name="build-compare" notmeta="1" version="20150821T175907.9b8c0be" release="1.1" arch="noarch" project="openSUSE:Factory" repository="standard" />
+  <bdep name="libgdbm4" notmeta="1" version="1.11" release="5.18" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <bdep name="aaa_base-malloccheck" notmeta="1" version="13.2+git20150625.4df5033" release="583.30" arch="x86_64" project="Base:System" repository="openSUSE_Factory" />
+  <bdep name="rpmlint-mini" notmeta="1" version="1.5" release="10.56" arch="x86_64" project="openSUSE:Factory" repository="standard" />
+  <path project="home:XJin:branches:Base:System" repository="openSUSE_Factory" />
+  <path project="Base:System" repository="openSUSE_Factory" />
+  <path project="openSUSE:Factory" repository="standard" />
+</buildinfo>

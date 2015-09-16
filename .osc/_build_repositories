@@ -1,0 +1,12 @@
+openSUSE_Factory_PowerPC ppc
+openSUSE_Factory_PowerPC ppc64
+openSUSE_Factory_PowerPC ppc64le
+openSUSE_Factory_ARM aarch64
+openSUSE_Factory_ARM armv7l
+openSUSE_Factory x86_64
+openSUSE_Factory i586
+openSUSE_13.2 i586
+openSUSE_13.2 x86_64
+SLE_11_SP3 i586
+SLE_11_SP3 x86_64
+SLE_11_SP3 ppc64

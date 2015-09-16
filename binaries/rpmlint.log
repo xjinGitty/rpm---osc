@@ -1,0 +1,7 @@
+make.x86_64: W: name-repeated-in-summary C make
+make.src: W: name-repeated-in-summary C make
+The name of the package is repeated in its summary.  This is often redundant
+information and looks silly in various programs' output.  Make the summary
+brief and to the point without including redundant information in it.
+
+3 packages and 0 specfiles checked; 0 errors, 2 warnings.
